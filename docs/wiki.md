@@ -21,6 +21,7 @@
   - [系统要求](#系统要求)
   - [下载（克隆）仓库](#下载（克隆）仓库)
   - [如何运行](#如何运行？)
+- [项目结构](#项目结构)
 - [贡献](#贡献)
 - [联系我们](#联系我们)
 
@@ -58,6 +59,14 @@ pip install pil
 ```bash
 python main.py
 ```
+
+## 项目结构
+> - `font/`:字体文件夹 :capital_abcd:
+> - `images/`:图片文件夹 :flower_playing_cards:
+> - `software/`:系统应用文件夹 :computer:
+>   - `code/`:用于存储exe应用的源代码文件夹 :computer:
+> - `system/`:用于存放系统设置变量或其他配置文件的文件夹 :computer:
+> - `Disk/`:虚拟磁盘文件夹 :floppy_disk:
 
 ## 贡献
 
