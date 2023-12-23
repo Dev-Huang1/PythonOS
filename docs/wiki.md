@@ -6,17 +6,22 @@
 
 ## 概述
 
-PythonOS 是一个基于 Python 编写的简单操作系统。它旨在提供一个学习操作系统原理和编写内核的平台。
+:star2:PythonOS 是一个基于 Python 编写的简单操作系统。它旨在提供一个学习操作系统原理和编写内核的平台。:star2:
 
 ### 功能特性
 
-- **简单性**：PythonOS的设计注重简单性和易理解性，适合初学者学习操作系统开发。
-- **Python编写**：整个操作系统的内核和一些基本组件都是用 Python 编写的。
-- **学习资源**：PythonOS 提供了详细的文档和示例代码，帮助用户理解操作系统的基本原理和实现细节。
+- :star2:**简单性**：PythonOS的设计注重简单性和易理解性，适合初学者学习操作系统开发。
+- :star2:**Python编写**：整个操作系统的内核和一些基本组件都是用 Python 编写的。
+- :star2:**学习资源**：PythonOS 提供了详细的文档和示例代码，帮助用户理解操作系统的基本原理和实现细节。
 
 
 ## 目录
-- [如何运行](#如何运行)
+- [快速开始](#快速开始)
+  - [系统要求](#系统要求)
+  - [下载（克隆）仓库](#下载（克隆）仓库)
+  - [如何运行](#如何运行？)
+- [贡献](#贡献)
+- [联系我们](#联系我们)
 
 ## 快速开始
 
@@ -27,7 +32,12 @@ PythonOS 是一个基于 Python 编写的简单操作系统。它旨在提供一
 ### 下载（克隆）仓库
 
 1.**克隆仓库**
+```bash
+git clone https://github.com/Github-Huangshaoqi/PythonOS.git
+cd PythonOS
+```
 
+或点击“Download ZIP”下载
 
 ### 如何运行？
 
@@ -47,6 +57,21 @@ pip install pil
 ```bash
 python main.py
 ```
+
+## 贡献
+
+如果你想为 PythonOS 做出贡献，请参考 [CONTRIBUTING.md](CONTRIBUTING.md) 文件获取更多信息。
+
+## 联系我们
+
+如果你有任何问题或建议，请在我们的 [GitHub](https://github.com/Gthub-Huangshaoqi/PythonOS) 页面上提出问题或提交请求。
+也可联系邮箱：huangshaoqi8888@gmail.com、huangtongxue@proton.me
+
+
+
+
+
+
 
 
 
