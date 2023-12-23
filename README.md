@@ -2,6 +2,8 @@
 
 :tada:PythonOS 是一个用 Python 编写的简单操作系统。该项目的目标是提供一个基本的操作系统框架，以便学习和实验操作系统的基本概念。:tada:
 
+而且免费 :free:
+
 ![python](https://img.shields.io/badge/python-%3E%3D3-brightgreen
 )
 ![license](https://img.shields.io/badge/license-MIT-blue
