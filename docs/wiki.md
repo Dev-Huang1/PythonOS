@@ -38,7 +38,7 @@ git clone https://github.com/Github-Huangshaoqi/PythonOS.git
 cd PythonOS
 ```
 
-或点击“Download ZIP”下载
+或点击“Download ZIP”下载 :arrow_down:
 
 2.安装依赖库
 
