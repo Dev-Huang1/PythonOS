@@ -61,7 +61,7 @@ python main.py
 
 ## 贡献
 
-如果你想为 PythonOS 做出贡献，请参考 [CONTRIBUTING.md](CONTRIBUTING.md) 文件获取更多信息。
+你可以[fork](https://github.com/Github-Huangshaoqi/PythonOS/fork)项目到你的仓库更改，然后pull过来 :blush: :tada:
 
 ## 联系我们
 
