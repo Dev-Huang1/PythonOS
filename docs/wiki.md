@@ -19,7 +19,6 @@
 - [概述](#概述)
 - [快速开始](#快速开始)
   - [系统要求](#系统要求)
-  - [下载（克隆）仓库](#下载（克隆）仓库)
   - [如何运行](#如何运行？)
 - [项目结构](#项目结构)
 - [贡献](#贡献)
@@ -31,7 +30,7 @@
 - Python版本：Python 3.x
 - 需要安装好依赖库
 
-### 下载（克隆）仓库
+### 如何运行？
 
 1.**克隆仓库**
 ```bash
@@ -39,11 +38,9 @@ git clone https://github.com/Github-Huangshaoqi/PythonOS.git
 cd PythonOS
 ```
 
-2.或点击“Download ZIP”下载
+或点击“Download ZIP”下载
 
-### 如何运行？
-
-首先要安装依赖库
+2.安装依赖库
 
 ```bash
 pip install pygame
@@ -54,7 +51,7 @@ pip install ffpyplayer
 pip install pil
 ```
 
-然后运行`main.py`
+3.运行`main.py`
 
 ```bash
 python main.py
