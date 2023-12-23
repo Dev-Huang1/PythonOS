@@ -2,7 +2,7 @@
 
 :tada: 欢迎来到Wiki :tada:
 
-__这里是一些问题的百科，以及如何使用和开发__
+:kissing_closed_eyes: __这里是一些问题的百科，以及如何使用和开发__ :kissing_closed_eyes: 
 
 ## 目录
 - [如何运行](#如何运行)
