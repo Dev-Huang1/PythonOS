@@ -44,7 +44,7 @@ python main.py
 你可以fork项目到你的仓库更改，然后pull过来
 
 ## 许可证
-该项目采用 MIT协议
+该项目采用 [MIT](https://github.com/Github-Huangshaoqi/PythonOS?tab=MIT-1-ov-file)协议
 
 - Copyright (c) 2023 Github-Huangshaoqi
 
