@@ -20,7 +20,7 @@ pip install ffpyplayer
 pip install pil
 ```
 
-然后运行main.py
+然后运行`main.py`
 
 ```bash
 python main.py
