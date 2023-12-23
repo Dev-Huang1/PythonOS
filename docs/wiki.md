@@ -70,7 +70,7 @@ python main.py
 也可联系邮箱：huangshaoqi8888@gmail.com、huangtongxue@proton.me
 
 ## 许可证
-该项目采用 [MIT](https://github.com/Github-Huangshaoqi/PythonOS?tab=MIT-1-ov-file)协议 ![license](https://img.shields.io/badge/license-MIT-blue)
+该项目采用 [MIT](https://github.com/Github-Huangshaoqi/PythonOS?tab=MIT-1-ov-file)协议
 
 - :copyright:  Github-Huangshaoqi 2023
 
