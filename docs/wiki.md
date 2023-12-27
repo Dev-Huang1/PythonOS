@@ -4,7 +4,7 @@
 
 :kissing_closed_eyes: __这里是一些问题的百科，以及如何使用和开发__ :kissing_closed_eyes: 
 
-<a href="https://github.com/Github-Huangshaoqi/PythonOS/Releases">下载其他版本</a>
+<a href="https://github.com/Github-Huangshaoqi/PythonOS/releases">下载其他版本</a>
     ·
     <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">报告Bug</a>
     ·
