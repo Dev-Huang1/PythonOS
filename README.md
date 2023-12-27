@@ -1,5 +1,16 @@
 # PythonOS
 
+<p align="center">
+  <h3 align="center">PythonOS</h3>
+    <a href="https://github.com/Github-Huangshaoqi/PythonOS/releases">下载其他版本</a>
+    ·
+    <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">报告Bug</a>
+    ·
+    <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">提出新功能</a>
+  </p>
+</p>
+
+
 :tada:PythonOS 是一个用 Python 编写的简单操作系统。该项目的目标是提供一个基本的操作系统框架，以便学习和实验操作系统的基本概念。:tada:
 
 而且免费 :free:
