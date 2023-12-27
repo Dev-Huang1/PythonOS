@@ -4,6 +4,12 @@
 
 :kissing_closed_eyes: __这里是一些问题的百科，以及如何使用和开发__ :kissing_closed_eyes: 
 
+<a href="https://github.com/Github-Huangshaoqi/PythonOS/Releases">下载其他版本</a>
+    ·
+    <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">报告Bug</a>
+    ·
+    <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">提出新功能</a>
+
 ## 概述
 
 :star:PythonOS 是一个基于 Python 编写的简单操作系统。它旨在提供一个学习操作系统原理和编写内核的平台。:star2:
