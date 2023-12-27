@@ -7,7 +7,6 @@
     <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">报告Bug</a>
     ·
     <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">提出新功能</a>
-  </p>
 </p>
 
 
