@@ -20,7 +20,7 @@
     ·
   <a href="https://t.me/PythonOS">Telegram</a>
 </p>
-
+   ·
   <a href="https://discord.gg/QXHHyj5Q">Discord 交流群</a>
 </p>
 </div>
