@@ -2,12 +2,15 @@
 
 <div align="center">
 <p align="center">
-  <h3 align="center">PythonOS</h3>
-    <a href="https://github.com/Github-Huangshaoqi/PythonOS/releases">下载其他版本</a>
+    
+  ![img1](docs/img/desktop.png)
+  
+  <h3 align="center">PythonOS</h3>   
+  <a href="https://github.com/Github-Huangshaoqi/PythonOS/releases">下载其他版本</a>
     ·
-    <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">报告Bug</a>
+  <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">报告Bug</a>
     ·
-    <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">提出新功能</a>
+  <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">提出新功能</a>
 </p>
 </div>
 
@@ -32,6 +35,7 @@
 ## 目录
 
 - [概述](#概述)
+- [效果](#效果)
 - [快速开始](#快速开始)
   - [环境要求](#环境要求)
   - [安装依赖](#安装依赖)
@@ -39,6 +43,12 @@
 - [项目结构](#项目结构)
 - [贡献](#贡献)
 - [许可证](#许可证)
+
+## 效果
+
+![img2](docs/img/suopin.png)
+
+![img3](docs/img/desktop.png)
 
 ## 快速开始
 
