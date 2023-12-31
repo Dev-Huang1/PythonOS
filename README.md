@@ -14,6 +14,14 @@
 </p>
 </div>
 
+<div align="center">
+<p align="center">
+  <a href="https://x.com/@Pythonos2">PythonOS X</a>
+    ·
+  <a href="https://t.me/PythonOS">Telegram</a>
+</p>
+</div>
+
 :tada:PythonOS 是一个用 Python 编写的简单操作系统。该项目的目标是提供一个基本的操作系统框架，以便学习和实验操作系统的基本概念。:tada:
 
 而且免费 :free:
