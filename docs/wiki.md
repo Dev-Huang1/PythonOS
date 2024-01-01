@@ -67,8 +67,6 @@ cd PythonOS
 pip install pygame
 pip install psutil
 pip install easygui
-pip install opencv-python
-pip install ffpyplayer
 pip install pil
 ```
 
@@ -95,6 +93,14 @@ python main.py
 :kissing_closed_eyes:如果你有任何问题或建议，请在我们的 [GitHub](https://github.com/Gthub-Huangshaoqi/PythonOS) 页面上提出问题或提交请求。 :kissing_closed_eyes:
 
 也可联系邮箱：huangshaoqi8888@gmail.com、huangtongxue@proton.me
+
+或者
+
+<a href="https://x.com/@Pythonos2">PythonOS X</a>
+    ·
+  <a href="https://t.me/PythonOS">Telegram</a>
+  ·
+  <a href="https://discord.gg/sbKMNhuvYt">Discord 交流群</a>
 
 ## 许可证
 该项目采用 [MIT](https://github.com/Github-Huangshaoqi/PythonOS?tab=MIT-1-ov-file)协议
