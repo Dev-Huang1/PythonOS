@@ -22,7 +22,7 @@
    ·
   <a href="https://discord.gg/sbKMNhuvYt">Discord 交流群</a>
     ·
-  <a href="https://support.xyehr.cn">PythonOS 开发人员文档</a>
+  <a href="https://support.xyehr.cn">开发人员文档</a>
 </p>
 </div>
 
