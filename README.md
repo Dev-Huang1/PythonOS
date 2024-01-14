@@ -22,7 +22,7 @@
    ·
   <a href="https://discord.gg/sbKMNhuvYt">Discord 交流群</a>
     ·
-  <a href="https://support.xyehr.cn">开发人员文档</a>
+  <a href="https://card.xyehr.cn">链接卡</a>
 </p>
 </div>
 
