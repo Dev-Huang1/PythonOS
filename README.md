@@ -22,7 +22,7 @@
    ·
   <a href="https://discord.gg/sbKMNhuvYt">Discord 交流群</a>
     ·
-  <a href="https://card.xyehr.cn">链接卡</a>
+  <a href="https://card.xyehr.cn">其他联系方式</a>
 </p>
 </div>
 
