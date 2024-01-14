@@ -4,7 +4,6 @@ terminal_start_get_1=threading.Thread(target=terminal.start_get())
 import pygame
 import platform
 import random
-import psutil
 import options
 from pygame.locals import *
 from button import Button
@@ -14,9 +13,10 @@ import easygui as egui
 import numpy as np
 import os
 from datetime import datetime
+import System._config
 
 pygame.init()
-pygame.display.set_caption("PythonOS 23H2  2401 build-1.5.2 | © Github-Huangshaoqi,happyleibniz")
+pygame.display.set_caption("PythonOS 23H2  2401 build-1.5.3 | © Github-Huangshaoqi,happyleibniz")
 vm_info="Pyvm1.0"
 booter="Py legends"
 os_name = platform.system()
@@ -27,17 +27,17 @@ WIDTH=1000
 HEIGHT=562
 is_white=False
 if is_white==False:
-    bg=pygame.image.load("./images/background_black.png")
-    python_os = pygame.image.load('./images/pythonos_white.png')
+    bg=pygame.image.load("assets/images/background_black.png")
+    python_os = pygame.image.load('assets/images/pythonos_white.png')
     # Get the rectangle of the image
     python_os_rect = python_os.get_rect()
     # Set the image coordinates to (0,0)
     
-pylegends=pygame.image.load("./images/pylegends2.png")
+pylegends=pygame.image.load("assets/images/pylegends2.png")
 pylegends_rect=pylegends.get_rect()
 pylegends_rect.topleft=(WIDTH/10,HEIGHT/10)
 
-font = pygame.font.Font("./font/font.ttf", 10)
+font = pygame.font.Font("assets/font/font.ttf", 10)
 #this is the startup screen
 startup=True
 
@@ -77,50 +77,13 @@ mimodules_rect.topleft=(7,205)
 screen = pygame.display.set_mode((WIDTH, HEIGHT),RESIZABLE)
 running = True
 
-def BlUe_ScreeN(Error_type):
-    global running
-    get=False
-    while running:
-        OPTIONS_MOUSE_POS = pygame.mouse.get_pos()
 
-        screen.fill("blue")
-
-        OPTIONS_TEXT = get_font(15).render("Your computer has encountered an error", True, "White")
-        OPTIONS_RECT = OPTIONS_TEXT.get_rect(center=(400, 30))
-        screen.blit(OPTIONS_TEXT, OPTIONS_RECT)
-
-        g1=Button(image=None,pos=(270,50),
-                  text_input="self.error."+str(e),font=get_font(10),base_color="White",hovering_color="White")
-        g1.changeColor(OPTIONS_MOUSE_POS)
-        g1.update(screen)
-        g2=Button(image=None,pos=(270,70),
-                     text_input="We only collect error information",font=get_font(10),base_color="White",hovering_color="White")
-        g2.changeColor(OPTIONS_MOUSE_POS)
-        g2.update(screen)
-        login=Button(image=None,pos=(210,550),
-                     text_input="clickme to shut down :(",font=get_font(20),base_color="Black",hovering_color="White")
-        login.changeColor(OPTIONS_MOUSE_POS)
-        login.update(screen)
-
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
-            if event.type == pygame.MOUSEBUTTONDOWN:
-                if login.checkForInput(OPTIONS_MOUSE_POS):
-                    print("shutting down...")
-                    pygame.quit()
-                    sys.exit()
-                    
-        pygame.display.update()
-        if get:
-            return
 ##################
 
 ##################
 
 def get_font(size): # Returns Press-Start-2P in the desired size
-    return pygame.font.Font("font/font.ttf", size)
+    return pygame.font.Font("assets/font/font.ttf", size)
 def g1():
     global python_os,python_os_rect
     global pylegends, pylegends_rect
@@ -142,7 +105,8 @@ def g1():
         screen.blit(python_ver,python_ver_rect)
         screen.blit(mimodules,mimodules_rect)
         
-        return   
+        
+        start2()
 def chrome_web():
     # creating a pyQt5 application
     app = QApplication(sys.argv)
@@ -164,20 +128,20 @@ def user_defalt():
     ggs=False
     viruss=False
     ggss=False
-    font2 = pygame.font.Font("./font/font3.ttf", 13)
+    font2 = pygame.font.Font("assets/font/font3.ttf", 13)
     
     while running:
         OPTIONS_MOUSE_POS = pygame.mouse.get_pos()
-        bg_os=pygame.image.load("./images/bg_os3.png")
+        bg_os=pygame.image.load("assets/images/bg_os3.png")
         screen.blit(bg_os,(0,0))
 
-        side_bar=pygame.image.load("./images/sidebar.png")
+        side_bar=pygame.image.load("assets/images/sidebar.png")
         side_bar.get_rect()
         screen.blit(side_bar, (0,530))
-        start_menu=pygame.image.load("./images/start_menu.png")
+        start_menu=pygame.image.load("assets/images/start_menu.png")
         start_menu.get_rect()
         
-        close_button_image=pygame.image.load("./images/ShutDown.png")
+        close_button_image=pygame.image.load("assets/images/ShutDown.png")
         close_button=Button(image=close_button_image,pos=(12,518),
                      text_input=" ",font=get_font(1),base_color="white",hovering_color="green")
         close_button.changeColor(OPTIONS_MOUSE_POS)
@@ -194,19 +158,19 @@ def user_defalt():
         close_button.update(screen)
         #start_menu.convert_alpha(255)
         
-        win_image=pygame.image.load("./images/win_button2.png")
+        win_image=pygame.image.load("assets/images/win_button.png")
         windows=Button(image=win_image,pos=(25,545),
                      text_input=" ",font=get_font(1),base_color="white",hovering_color="green")
         windows.changeColor(OPTIONS_MOUSE_POS)
         windows.update(screen)
         #serach button(搜索按钮还没有用！！！！！！！！！！！！！！！！)
-        searchimg = pygame.image.load("./images/search.png")
+        searchimg = pygame.image.load("assets/images/search.png")
         searchbt = Button(image=searchimg,pos=(65,545),
                      text_input=" ",font=get_font(1),base_color="white",hovering_color="green")
         searchbt.changeColor(OPTIONS_MOUSE_POS)
         searchbt.update(screen)
         #edge(chrome) image
-        chrome_image=pygame.image.load("./images/Edge2.png")
+        chrome_image=pygame.image.load("assets/images/Edge2.png")
         chrome=Button(image=chrome_image,pos=(30,160),
                       text_input="  ",font=get_font(1),base_color="white",hovering_color="green")
         chrome.changeColor(OPTIONS_MOUSE_POS)
@@ -217,26 +181,26 @@ def user_defalt():
         mc.changeColor(OPTIONS_MOUSE_POS)
         mc.update(screen)"""
 
-        virus_image=pygame.image.load("./images/computer.png")
+        virus_image=pygame.image.load("assets/images/computer.png")
         virus=Button(image=virus_image,pos=(30,30),
                      text_input=" ",font=get_font(1),base_color="white",hovering_color="green")
         virus.changeColor(OPTIONS_MOUSE_POS)
         virus.update(screen)
 
         #Calculator
-        Calculatorimg = pygame.image.load("./images/Calculator.png")
+        Calculatorimg = pygame.image.load("assets/images/Calculator.png")
         Calculatorbt = Button(Calculatorimg, pos=(30, 225),
                      text_input=" ", font=get_font(1), base_color="white", hovering_color="green")
         Calculatorbt.changeColor(OPTIONS_MOUSE_POS)
         Calculatorbt.update(screen)
 
-        recycle_bin_image=pygame.image.load("./images/Recycle0.png")
+        recycle_bin_image=pygame.image.load("assets/images/Recycle0.png")
         recycle_bin=Button(image=recycle_bin_image,pos=(30,90),
                            text_input=" ",font=get_font(1),base_color="white",hovering_color="green")
         recycle_bin.changeColor(OPTIONS_MOUSE_POS)
         recycle_bin.update(screen)
         
-        error_image=pygame.image.load("./images/frame_error.png")
+        error_image=pygame.image.load("assets/images/frame_error.png")
         error_image.get_rect()
 
         time_button = Button(image=None, pos=(950, 537.5),
@@ -280,8 +244,7 @@ def user_defalt():
                     print(ggss)
                 if close_button.checkForInput(OPTIONS_MOUSE_POS):
                     print("closed:)")
-                    pygame.quit()
-                    sys.exit()
+                    shutdown()
                 if chrome.checkForInput(OPTIONS_MOUSE_POS):
                     print("clicked on chrome")
                     print("starting chrome")
@@ -292,11 +255,73 @@ def user_defalt():
                     print("cala")
                     
         pygame.display.update()
+
+def shutdown():
+    global running, bg_install
+    get = False
+    font4 = pygame.font.Font("assets/font/jianti (1).ttc", 45)
+    startuplist = []
+
+    for i in range(1, 90):
+        startuplist.append(pygame.image.load(f"assets/images/startup/startup_{i}.png"))
+        print(startuplist)
+    crraima = 0
+
+    screen.fill((0, 0, 0))
+    login = Button(image=None, pos=(500,370),
+                    text_input="正在关机", font=font4, base_color="White", hovering_color="white")
+    login.update(screen)
+    clock = pygame.time.Clock()
+    for i in range(100):
+        OPTIONS_MOUSE_POS = pygame.mouse.get_pos()
+        screen.blit(startuplist[crraima], (430, 200))  # 370
+        pygame.display.flip()
+        clock.tick(25)
+        crraima = (crraima + 1) % len(startuplist)
+
+        pygame.display.update()
+
+    pygame.quit()
+    sys.exit()
+
+def start2():
+    global running, bg_install
+    get = False
+    startuplist=[]
+    
+    for i in range(1,90):
+        startuplist.append(pygame.image.load(f"assets/images/startup/startup_{i}.png"))
+        print(startuplist)
+    crraima=0
+
+    screen.fill((0, 0, 0))
+    #windows logo
+    windows_leftup=pygame.image.load("assets/images/win1.png")
+    windows_rightup=pygame.image.load("assets/images/win2.png")
+    windows_leftdown=pygame.image.load("assets/images/win3.png")
+    windows_rightdown=pygame.image.load("assets/images/win4.png")
+    clock = pygame.time.Clock()
+    for i in range(100):
+        OPTIONS_MOUSE_POS = pygame.mouse.get_pos()
+        screen.blit(windows_leftup,(364,54)) #305,15
+        screen.blit(windows_rightup,(499,54)) #440,15
+        screen.blit(windows_leftdown,(364,189)) #314,154
+        screen.blit(windows_rightdown,(499,189)) #449,153
+        screen.blit(startuplist[crraima], (430, 400)) #370
+        pygame.display.flip()
+        clock.tick(25)
+        crraima = (crraima + 1) % len(startuplist)
+
+ 
+                    
+        pygame.display.update()
+    start()
+
 def start():
     global running
-    font2 = pygame.font.Font("./font/font3.ttf", 90)
-    font3 = pygame.font.Font("./font/font3.ttf", 25)
-    font4 = pygame.font.Font("./font/font3.ttf", 23)
+    font2 = pygame.font.Font("assets/font/font3.ttf", 90)
+    font3 = pygame.font.Font("assets/font/font3.ttf", 28)
+    font4 = pygame.font.Font("assets/font/font3.ttf", 23)
     get = False
     while running:
         OPTIONS_MOUSE_POS = pygame.mouse.get_pos()
@@ -309,7 +334,7 @@ def start():
         time_button.changeColor(OPTIONS_MOUSE_POS)
         time_button.update(screen)
 
-        time_button2 = Button(image=None, pos=(156, 500),
+        time_button2 = Button(image=None, pos=(157, 500),
                               text_input=get_current_time2(), font=font3, base_color="White", hovering_color="White")
         time_button2.changeColor(OPTIONS_MOUSE_POS)
         time_button2.update(screen)
@@ -318,17 +343,22 @@ def start():
                        text_input="登录", font=font4, base_color="White", hovering_color="Gray")
         login.changeColor(OPTIONS_MOUSE_POS)
         login.update(screen)
-        account_img=pygame.image.load("./images/account2.png")
+        account_img=pygame.image.load("assets/images/account2.png")
         account_bt=Button(image=account_img,pos=(930,473),
                            text_input=" ",font=get_font(1),base_color="white",hovering_color="green")
         account_bt.changeColor(OPTIONS_MOUSE_POS)
         account_bt.update(screen)
 
-        wuzaiimg=pygame.image.load("./images/wuzhangai.png")
+        wuzaiimg=pygame.image.load("assets/images/wuzhangai.png")
         wuzaibt=Button(image=wuzaiimg,pos=(872,521),
                            text_input=" ",font=get_font(1),base_color="white",hovering_color="green")
         wuzaibt.changeColor(OPTIONS_MOUSE_POS)
         wuzaibt.update(screen)
+        msimg=pygame.image.load("assets/images/Microsoft2.png")
+        msbt=Button(image=msimg,pos=(930,30),
+                           text_input=" ",font=get_font(1),base_color="white",hovering_color="green")
+        msbt.changeColor(OPTIONS_MOUSE_POS)
+        msbt.update(screen)
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -354,9 +384,25 @@ def get_current_time():
 
 def get_current_time2():
     now = datetime.now()
+    
+
+    day_of_week_mapping = {
+        'Monday': '星期一',
+        'Tuesday': '星期二',
+        'Wednesday': '星期三',
+        'Thursday': '星期四',
+        'Friday': '星期五',
+        'Saturday': '星期六',
+        'Sunday': '星期日', 
+    }
+
     date_str = now.strftime("%Y/%m/%d")
     day_of_week_str = now.strftime("%A")
-    return f"{day_of_week_str} {date_str}"
+    
+    # 获取中文星期
+    chinese_day_of_week = day_of_week_mapping.get(day_of_week_str, day_of_week_str)
+
+    return f"{chinese_day_of_week} {date_str}"
 
 def get_desktop_time():
     now = datetime.now()
@@ -369,6 +415,58 @@ def get_desktop_time2():
     return f"{date_str}"
 
 gg=0
+
+def BlUe_ScreeN(Error_type):
+    global running
+    get = False
+    while running:
+        OPTIONS_MOUSE_POS = pygame.mouse.get_pos()
+
+        font0 = pygame.font.Font("assets/font/font3.ttf", 40)
+        font1 = pygame.font.Font("assets/font/font3.ttf", 45)
+        font2 = pygame.font.Font("assets/font/font3.ttf", 35)
+        font3 = pygame.font.Font("assets/font/font3.ttf", 35)
+        font4 = pygame.font.Font("assets/font/font3.ttf", 40)
+
+        screen.fill("blue")
+
+        OPTIONS_TEXT = font1.render("你的电脑遇到问题", True, "White")
+        OPTIONS_RECT = OPTIONS_TEXT.get_rect(center=(500, 40))
+        screen.blit(OPTIONS_TEXT, OPTIONS_RECT)
+
+        g0 = Button(image=None, pos=(275, 40),
+                    text_input=":(", font=font0, base_color="White", hovering_color="White")
+        g0.changeColor(OPTIONS_MOUSE_POS)
+        g0.update(screen)
+
+        g1 = Button(image=None, pos=(500, 100),
+                    text_input="错误代码:" + str(e), font=font2, base_color="White", hovering_color="White")
+        g1.changeColor(OPTIONS_MOUSE_POS)
+        g1.update(screen)
+        g2 = Button(image=None, pos=(500, 150),
+                    text_input="我们只收集错误信息，然后为你重新启动", font=font3, base_color="White",
+                    hovering_color="White")
+        g2.changeColor(OPTIONS_MOUSE_POS)
+        g2.update(screen)
+        login = Button(image=None, pos=(210, 495),
+                       text_input="或者点我关机", font=font4, base_color="White", hovering_color="Gray")
+        login.changeColor(OPTIONS_MOUSE_POS)
+        login.update(screen)
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                if login.checkForInput(OPTIONS_MOUSE_POS):
+                    print("shutting down...")
+                    pygame.quit()
+                    sys.exit()
+
+        pygame.display.update()
+        if get:
+            return
+
 def start_computer():
     global b,gg
     global running,is_white
