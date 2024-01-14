@@ -16,7 +16,7 @@
   ·
   <a href="https://discord.gg/sbKMNhuvYt">Discord 交流群</a>
 ·
-  <a href="https://support.xyehr.cn">开发人员文档</a>
+  <a href="https://card.xyehr.cn">其他联系方式</a>
 ## 概述
 
 :star:PythonOS 是一个基于 Python 编写的简单操作系统。它旨在提供一个学习操作系统原理和编写内核的平台。:star2:
