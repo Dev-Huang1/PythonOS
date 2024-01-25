@@ -89,8 +89,12 @@ python main.py
 
 
 ## 项目结构
-> - `font/`:字体文件夹 :capital_abcd:
-> - `images/`:图片文件夹 :flower_playing_cards:
+> - `assets`:资产文件夹
+>     - `font/`:字体文件夹 :capital_abcd:
+>     - `images/`:图片文件夹 :flower_playing_cards:
+>         - `running logo`:存放oobe图片的文件夹
+>         - `startup`:转圈圈图片
+>         - `startupv`:转圈圈图片2 
 > - `software/`:系统应用文件夹 :computer:
 >   - `code/`:用于存储exe应用的源代码文件夹 :computer:
 > - `system/`:用于存放系统设置变量或其他配置文件的文件夹 :computer:
