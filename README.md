@@ -66,8 +66,8 @@
 
 ### 环境要求
 
-- Python 3.x ![python](https://img.shields.io/badge/python-%3E%3D3-brightgreen
-)
+- Python 3.6+ ![Python](https://img.shields.io/badge/Python-%3E%3D3.6-brightgreen)
+
 - 依赖库 [安装依赖](#安装依赖)
 
 ### 安装依赖
@@ -97,8 +97,9 @@ python main.py
 >         - `startupv`:转圈圈图片2 
 > - `software/`:系统应用文件夹 :computer:
 >   - `code/`:用于存储exe应用的源代码文件夹 :computer:
-> - `system/`:用于存放系统设置变量或其他配置文件的文件夹 :computer:
-> - `Disk/`:虚拟磁盘文件夹 :floppy_disk:
+> - `System/`:用于存放系统设置变量或其他配置文件的文件夹 :computer:
+> - `Disk/`:虚拟磁盘文件夹 💾
+> - `Public`:装饰用的，没啥用
 
 ## 贡献
 你可以[fork](https://github.com/Github-Huangshaoqi/PythonOS/fork)项目到你的仓库更改，然后pull过来 :blush: :tada:
