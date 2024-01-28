@@ -10,7 +10,7 @@
     ·
     <a href="https://github.com/Github-Huangshaoqi/PythonOS/issues">提出新功能</a>
     
-  <a href="https://x.com/@Pythonos2">PythonOS X</a>
+  <a href="https://twitter.com/ Python_OS">PythonOS X</a>
     ·
   <a href="https://t.me/PythonOS">Telegram</a>
   ·
