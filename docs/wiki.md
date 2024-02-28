@@ -16,7 +16,7 @@
   ·
   <a href="https://discord.gg/sbKMNhuvYt">Discord 交流群</a>
 ·
-  <a href="https://card.xyehr.cn">其他联系方式</a>
+  <a href="https://link.xyehr.cn">其他联系方式</a>
 ## 概述
 
 :star:PythonOS 是一个基于 Python 编写的简单操作系统。它旨在提供一个学习操作系统原理和编写内核的平台。:star2:
@@ -106,9 +106,9 @@ python main.py
 ## 许可证
 该项目采用 [MIT](https://github.com/Github-Huangshaoqi/PythonOS?tab=MIT-1-ov-file)协议
 
-- :copyright:  Github-Huangshaoqi 2023
+- :copyright:  Github-Huangshaoqi 2024
 
-- :copyright:  [happyleibniz](https://github.com/happyleibniz) 2023
+- :copyright:  [happyleibniz](https://github.com/happyleibniz) 2024
 
 
 
