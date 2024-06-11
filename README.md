@@ -1,5 +1,5 @@
 > [!IMPORTANT]\
-> __This repository has stopped updating. We have moved it. Please visit [Happyleibniz/Python-Opreating-System](https://github.com/happyleibniz/Python-Operating-System)__
+> __This repository has stopped updating. We have moved it. Please visit [happyleibniz/Python-Opreating-System](https://github.com/happyleibniz/Python-Operating-System)__
 
 
 # PythonOS
