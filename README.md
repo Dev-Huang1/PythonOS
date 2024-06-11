@@ -1,4 +1,4 @@
-> [!NOTE]\
+> [!IMPORTANT]\
 > This repository has stopped updating. We have moved it. Please visit [Happyleibniz/Python-Opreating-System](https://github.com/happyleibniz/Python-Operating-System)
 
 # PythonOS
